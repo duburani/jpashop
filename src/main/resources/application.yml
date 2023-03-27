@@ -3,7 +3,7 @@ spring:
     show-sql: true
     generate-ddl: true
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
     defer-datasource-initialization: true
   h2:
     console:
